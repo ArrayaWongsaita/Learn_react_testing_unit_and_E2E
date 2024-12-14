@@ -11,9 +11,9 @@ describe("ErrorMessage", () => {
     );
   });
   it("renders default error state", () => {
-    render(<ErrorMessage message="Email is already token" />);
+      render(<ErrorMessage message="Email is already token" />);
     expect(screen.getByTestId("message-container")).toHaveTextContent(
-      "Email is already token"
+        "Email is already token"
     );
   });
 });
